@@ -62,7 +62,8 @@ Public Class Form1
     End Sub
 
     Private Sub btnPrint_Click(sender As Object, e As EventArgs) Handles btnPrint.Click
-        Form5.Show()
+        Form5.Show(Form4
+                   )
     End Sub
 
 
