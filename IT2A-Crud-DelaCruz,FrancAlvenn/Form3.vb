@@ -44,4 +44,13 @@
         End If
 
     End Sub
+
+    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
+        Form1.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnPrint_Click(sender As Object, e As EventArgs) Handles btnPrint.Click
+        Form4.Show()
+    End Sub
 End Class

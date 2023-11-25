@@ -22,30 +22,55 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        dgvRecord = New DataGridView()
-        CType(dgvRecord, ComponentModel.ISupportInitialize).BeginInit()
-        SuspendLayout()
-        ' 
-        ' dgvRecord
-        ' 
-        dgvRecord.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        dgvRecord.Location = New Point(66, 199)
-        dgvRecord.Name = "dgvRecord"
-        dgvRecord.RowTemplate.Height = 25
-        dgvRecord.Size = New Size(695, 335)
-        dgvRecord.TabIndex = 0
-        ' 
-        ' Form3
-        ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
-        AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(823, 578)
-        Controls.Add(dgvRecord)
-        Name = "Form3"
-        Text = "Form3"
-        CType(dgvRecord, ComponentModel.ISupportInitialize).EndInit()
-        ResumeLayout(False)
+        Me.dgvRecord = New System.Windows.Forms.DataGridView()
+        Me.btnHome = New System.Windows.Forms.Button()
+        Me.btnPrint = New System.Windows.Forms.Button()
+        CType(Me.dgvRecord, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'dgvRecord
+        '
+        Me.dgvRecord.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvRecord.Location = New System.Drawing.Point(55, 48)
+        Me.dgvRecord.Name = "dgvRecord"
+        Me.dgvRecord.RowTemplate.Height = 25
+        Me.dgvRecord.Size = New System.Drawing.Size(596, 290)
+        Me.dgvRecord.TabIndex = 0
+        '
+        'btnHome
+        '
+        Me.btnHome.Location = New System.Drawing.Point(282, 386)
+        Me.btnHome.Name = "btnHome"
+        Me.btnHome.Size = New System.Drawing.Size(159, 35)
+        Me.btnHome.TabIndex = 1
+        Me.btnHome.Text = "Home"
+        Me.btnHome.UseVisualStyleBackColor = True
+        '
+        'btnPrint
+        '
+        Me.btnPrint.Location = New System.Drawing.Point(474, 386)
+        Me.btnPrint.Name = "btnPrint"
+        Me.btnPrint.Size = New System.Drawing.Size(159, 35)
+        Me.btnPrint.TabIndex = 2
+        Me.btnPrint.Text = "Print"
+        Me.btnPrint.UseVisualStyleBackColor = True
+        '
+        'Form3
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(705, 462)
+        Me.Controls.Add(Me.btnPrint)
+        Me.Controls.Add(Me.btnHome)
+        Me.Controls.Add(Me.dgvRecord)
+        Me.Name = "Form3"
+        Me.Text = "Form3"
+        CType(Me.dgvRecord, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
     End Sub
 
     Friend WithEvents dgvRecord As DataGridView
+    Friend WithEvents btnHome As Button
+    Friend WithEvents btnPrint As Button
 End Class
