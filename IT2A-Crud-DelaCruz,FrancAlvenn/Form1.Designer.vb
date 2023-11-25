@@ -30,6 +30,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Username = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btnPrint = New System.Windows.Forms.Button()
         Me.btnUpdate = New System.Windows.Forms.Button()
         Me.txtUID = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -40,7 +41,6 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.btnFilter = New System.Windows.Forms.Button()
-        Me.btnPrint = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -132,6 +132,16 @@ Partial Class Form1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Search"
         '
+        'btnPrint
+        '
+        Me.btnPrint.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.btnPrint.Location = New System.Drawing.Point(147, 204)
+        Me.btnPrint.Name = "btnPrint"
+        Me.btnPrint.Size = New System.Drawing.Size(104, 37)
+        Me.btnPrint.TabIndex = 9
+        Me.btnPrint.Text = "PRINT"
+        Me.btnPrint.UseVisualStyleBackColor = True
+        '
         'btnUpdate
         '
         Me.btnUpdate.Font = New System.Drawing.Font("Segoe UI", 15.0!)
@@ -215,22 +225,12 @@ Partial Class Form1
         'btnFilter
         '
         Me.btnFilter.Font = New System.Drawing.Font("Segoe UI", 15.0!)
-        Me.btnFilter.Location = New System.Drawing.Point(239, 412)
+        Me.btnFilter.Location = New System.Drawing.Point(242, 390)
         Me.btnFilter.Name = "btnFilter"
         Me.btnFilter.Size = New System.Drawing.Size(187, 47)
         Me.btnFilter.TabIndex = 7
         Me.btnFilter.Text = "FILTER DATA"
         Me.btnFilter.UseVisualStyleBackColor = True
-        '
-        'btnPrint
-        '
-        Me.btnPrint.Font = New System.Drawing.Font("Segoe UI", 15.0!)
-        Me.btnPrint.Location = New System.Drawing.Point(147, 204)
-        Me.btnPrint.Name = "btnPrint"
-        Me.btnPrint.Size = New System.Drawing.Size(104, 37)
-        Me.btnPrint.TabIndex = 9
-        Me.btnPrint.Text = "PRINT"
-        Me.btnPrint.UseVisualStyleBackColor = True
         '
         'Form1
         '
