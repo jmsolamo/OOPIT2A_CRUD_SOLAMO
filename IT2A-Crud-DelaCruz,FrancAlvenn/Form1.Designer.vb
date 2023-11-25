@@ -22,219 +22,232 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        GroupBox1 = New GroupBox()
-        btnClose = New Button()
-        btnSave = New Button()
-        txtpassword = New TextBox()
-        txtuname = New TextBox()
-        Label2 = New Label()
-        Username = New Label()
-        GroupBox2 = New GroupBox()
-        btnUpdate = New Button()
-        txtUID = New TextBox()
-        Label4 = New Label()
-        btnDelete = New Button()
-        btnSearch = New Button()
-        txtPass = New TextBox()
-        txtUserName = New TextBox()
-        Label1 = New Label()
-        Label3 = New Label()
-        btnFilter = New Button()
-        GroupBox1.SuspendLayout()
-        GroupBox2.SuspendLayout()
-        SuspendLayout()
-        ' 
-        ' GroupBox1
-        ' 
-        GroupBox1.Controls.Add(btnClose)
-        GroupBox1.Controls.Add(btnSave)
-        GroupBox1.Controls.Add(txtpassword)
-        GroupBox1.Controls.Add(txtuname)
-        GroupBox1.Controls.Add(Label2)
-        GroupBox1.Controls.Add(Username)
-        GroupBox1.Location = New Point(34, 35)
-        GroupBox1.Name = "GroupBox1"
-        GroupBox1.Size = New Size(315, 382)
-        GroupBox1.TabIndex = 0
-        GroupBox1.TabStop = False
-        GroupBox1.Text = "Insert"
-        ' 
-        ' btnClose
-        ' 
-        btnClose.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
-        btnClose.Location = New Point(24, 301)
-        btnClose.Name = "btnClose"
-        btnClose.Size = New Size(270, 43)
-        btnClose.TabIndex = 5
-        btnClose.Text = "CLOSE"
-        btnClose.UseVisualStyleBackColor = True
-        ' 
-        ' btnSave
-        ' 
-        btnSave.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
-        btnSave.Location = New Point(24, 235)
-        btnSave.Name = "btnSave"
-        btnSave.Size = New Size(270, 43)
-        btnSave.TabIndex = 4
-        btnSave.Text = "SAVE"
-        btnSave.UseVisualStyleBackColor = True
-        ' 
-        ' txtpassword
-        ' 
-        txtpassword.Location = New Point(96, 155)
-        txtpassword.Name = "txtpassword"
-        txtpassword.PasswordChar = "*"c
-        txtpassword.Size = New Size(198, 23)
-        txtpassword.TabIndex = 3
-        ' 
-        ' txtuname
-        ' 
-        txtuname.Location = New Point(96, 100)
-        txtuname.Name = "txtuname"
-        txtuname.Size = New Size(198, 23)
-        txtuname.TabIndex = 2
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(24, 158)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(57, 15)
-        Label2.TabIndex = 1
-        Label2.Text = "Password"
-        ' 
-        ' Username
-        ' 
-        Username.AutoSize = True
-        Username.Location = New Point(23, 103)
-        Username.Name = "Username"
-        Username.Size = New Size(60, 15)
-        Username.TabIndex = 0
-        Username.Text = "Username"
-        ' 
-        ' GroupBox2
-        ' 
-        GroupBox2.Controls.Add(btnUpdate)
-        GroupBox2.Controls.Add(txtUID)
-        GroupBox2.Controls.Add(Label4)
-        GroupBox2.Controls.Add(btnDelete)
-        GroupBox2.Controls.Add(btnSearch)
-        GroupBox2.Controls.Add(txtPass)
-        GroupBox2.Controls.Add(txtUserName)
-        GroupBox2.Controls.Add(Label1)
-        GroupBox2.Controls.Add(Label3)
-        GroupBox2.Location = New Point(414, 35)
-        GroupBox2.Name = "GroupBox2"
-        GroupBox2.Size = New Size(315, 390)
-        GroupBox2.TabIndex = 6
-        GroupBox2.TabStop = False
-        GroupBox2.Text = "Search"
-        ' 
-        ' btnUpdate
-        ' 
-        btnUpdate.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
-        btnUpdate.Location = New Point(172, 301)
-        btnUpdate.Name = "btnUpdate"
-        btnUpdate.Size = New Size(122, 43)
-        btnUpdate.TabIndex = 8
-        btnUpdate.Text = "UPDATE"
-        btnUpdate.UseVisualStyleBackColor = True
-        ' 
-        ' txtUID
-        ' 
-        txtUID.Location = New Point(96, 76)
-        txtUID.Name = "txtUID"
-        txtUID.Size = New Size(198, 23)
-        txtUID.TabIndex = 7
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Location = New Point(23, 79)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(41, 15)
-        Label4.TabIndex = 6
-        Label4.Text = "UserID"
-        ' 
-        ' btnDelete
-        ' 
-        btnDelete.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
-        btnDelete.Location = New Point(24, 301)
-        btnDelete.Name = "btnDelete"
-        btnDelete.Size = New Size(131, 43)
-        btnDelete.TabIndex = 5
-        btnDelete.Text = "DELETE"
-        btnDelete.UseVisualStyleBackColor = True
-        ' 
-        ' btnSearch
-        ' 
-        btnSearch.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
-        btnSearch.Location = New Point(24, 235)
-        btnSearch.Name = "btnSearch"
-        btnSearch.Size = New Size(270, 43)
-        btnSearch.TabIndex = 4
-        btnSearch.Text = "SEARCH"
-        btnSearch.UseVisualStyleBackColor = True
-        ' 
-        ' txtPass
-        ' 
-        txtPass.Enabled = False
-        txtPass.Location = New Point(96, 183)
-        txtPass.Name = "txtPass"
-        txtPass.Size = New Size(198, 23)
-        txtPass.TabIndex = 3
-        ' 
-        ' txtUserName
-        ' 
-        txtUserName.Enabled = False
-        txtUserName.Location = New Point(96, 128)
-        txtUserName.Name = "txtUserName"
-        txtUserName.Size = New Size(198, 23)
-        txtUserName.TabIndex = 2
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Location = New Point(24, 186)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(57, 15)
-        Label1.TabIndex = 1
-        Label1.Text = "Password"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(23, 131)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(60, 15)
-        Label3.TabIndex = 0
-        Label3.Text = "Username"
-        ' 
-        ' btnFilter
-        ' 
-        btnFilter.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
-        btnFilter.Location = New Point(279, 475)
-        btnFilter.Name = "btnFilter"
-        btnFilter.Size = New Size(218, 54)
-        btnFilter.TabIndex = 7
-        btnFilter.Text = "FILTER DATA"
-        btnFilter.UseVisualStyleBackColor = True
-        ' 
-        ' Form1
-        ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
-        AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(767, 621)
-        Controls.Add(btnFilter)
-        Controls.Add(GroupBox2)
-        Controls.Add(GroupBox1)
-        Name = "Form1"
-        Text = "Form1"
-        GroupBox1.ResumeLayout(False)
-        GroupBox1.PerformLayout()
-        GroupBox2.ResumeLayout(False)
-        GroupBox2.PerformLayout()
-        ResumeLayout(False)
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnClose = New System.Windows.Forms.Button()
+        Me.btnSave = New System.Windows.Forms.Button()
+        Me.txtpassword = New System.Windows.Forms.TextBox()
+        Me.txtuname = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Username = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btnUpdate = New System.Windows.Forms.Button()
+        Me.txtUID = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.btnDelete = New System.Windows.Forms.Button()
+        Me.btnSearch = New System.Windows.Forms.Button()
+        Me.txtPass = New System.Windows.Forms.TextBox()
+        Me.txtUserName = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.btnFilter = New System.Windows.Forms.Button()
+        Me.btnPrint = New System.Windows.Forms.Button()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.btnClose)
+        Me.GroupBox1.Controls.Add(Me.btnSave)
+        Me.GroupBox1.Controls.Add(Me.txtpassword)
+        Me.GroupBox1.Controls.Add(Me.txtuname)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.Username)
+        Me.GroupBox1.Location = New System.Drawing.Point(29, 30)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(270, 331)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Insert"
+        '
+        'btnClose
+        '
+        Me.btnClose.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.btnClose.Location = New System.Drawing.Point(21, 261)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(231, 37)
+        Me.btnClose.TabIndex = 5
+        Me.btnClose.Text = "CLOSE"
+        Me.btnClose.UseVisualStyleBackColor = True
+        '
+        'btnSave
+        '
+        Me.btnSave.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.btnSave.Location = New System.Drawing.Point(21, 204)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(231, 37)
+        Me.btnSave.TabIndex = 4
+        Me.btnSave.Text = "SAVE"
+        Me.btnSave.UseVisualStyleBackColor = True
+        '
+        'txtpassword
+        '
+        Me.txtpassword.Location = New System.Drawing.Point(82, 134)
+        Me.txtpassword.Name = "txtpassword"
+        Me.txtpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txtpassword.Size = New System.Drawing.Size(170, 20)
+        Me.txtpassword.TabIndex = 3
+        '
+        'txtuname
+        '
+        Me.txtuname.Location = New System.Drawing.Point(82, 87)
+        Me.txtuname.Name = "txtuname"
+        Me.txtuname.Size = New System.Drawing.Size(170, 20)
+        Me.txtuname.TabIndex = 2
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(21, 137)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Password"
+        '
+        'Username
+        '
+        Me.Username.AutoSize = True
+        Me.Username.Location = New System.Drawing.Point(20, 89)
+        Me.Username.Name = "Username"
+        Me.Username.Size = New System.Drawing.Size(55, 13)
+        Me.Username.TabIndex = 0
+        Me.Username.Text = "Username"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.btnPrint)
+        Me.GroupBox2.Controls.Add(Me.btnUpdate)
+        Me.GroupBox2.Controls.Add(Me.txtUID)
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Controls.Add(Me.btnDelete)
+        Me.GroupBox2.Controls.Add(Me.btnSearch)
+        Me.GroupBox2.Controls.Add(Me.txtPass)
+        Me.GroupBox2.Controls.Add(Me.txtUserName)
+        Me.GroupBox2.Controls.Add(Me.Label1)
+        Me.GroupBox2.Controls.Add(Me.Label3)
+        Me.GroupBox2.Location = New System.Drawing.Point(355, 30)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(270, 338)
+        Me.GroupBox2.TabIndex = 6
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Search"
+        '
+        'btnUpdate
+        '
+        Me.btnUpdate.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.btnUpdate.Location = New System.Drawing.Point(147, 261)
+        Me.btnUpdate.Name = "btnUpdate"
+        Me.btnUpdate.Size = New System.Drawing.Size(105, 37)
+        Me.btnUpdate.TabIndex = 8
+        Me.btnUpdate.Text = "UPDATE"
+        Me.btnUpdate.UseVisualStyleBackColor = True
+        '
+        'txtUID
+        '
+        Me.txtUID.Location = New System.Drawing.Point(82, 66)
+        Me.txtUID.Name = "txtUID"
+        Me.txtUID.Size = New System.Drawing.Size(170, 20)
+        Me.txtUID.TabIndex = 7
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(20, 68)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(40, 13)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "UserID"
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.btnDelete.Location = New System.Drawing.Point(21, 261)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(112, 37)
+        Me.btnDelete.TabIndex = 5
+        Me.btnDelete.Text = "DELETE"
+        Me.btnDelete.UseVisualStyleBackColor = True
+        '
+        'btnSearch
+        '
+        Me.btnSearch.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.btnSearch.Location = New System.Drawing.Point(21, 204)
+        Me.btnSearch.Name = "btnSearch"
+        Me.btnSearch.Size = New System.Drawing.Size(112, 37)
+        Me.btnSearch.TabIndex = 4
+        Me.btnSearch.Text = "SEARCH"
+        Me.btnSearch.UseVisualStyleBackColor = True
+        '
+        'txtPass
+        '
+        Me.txtPass.Enabled = False
+        Me.txtPass.Location = New System.Drawing.Point(82, 159)
+        Me.txtPass.Name = "txtPass"
+        Me.txtPass.Size = New System.Drawing.Size(170, 20)
+        Me.txtPass.TabIndex = 3
+        '
+        'txtUserName
+        '
+        Me.txtUserName.Enabled = False
+        Me.txtUserName.Location = New System.Drawing.Point(82, 111)
+        Me.txtUserName.Name = "txtUserName"
+        Me.txtUserName.Size = New System.Drawing.Size(170, 20)
+        Me.txtUserName.TabIndex = 2
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(21, 161)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(53, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Password"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(20, 114)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(55, 13)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "Username"
+        '
+        'btnFilter
+        '
+        Me.btnFilter.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.btnFilter.Location = New System.Drawing.Point(239, 412)
+        Me.btnFilter.Name = "btnFilter"
+        Me.btnFilter.Size = New System.Drawing.Size(187, 47)
+        Me.btnFilter.TabIndex = 7
+        Me.btnFilter.Text = "FILTER DATA"
+        Me.btnFilter.UseVisualStyleBackColor = True
+        '
+        'btnPrint
+        '
+        Me.btnPrint.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.btnPrint.Location = New System.Drawing.Point(147, 204)
+        Me.btnPrint.Name = "btnPrint"
+        Me.btnPrint.Size = New System.Drawing.Size(104, 37)
+        Me.btnPrint.TabIndex = 9
+        Me.btnPrint.Text = "PRINT"
+        Me.btnPrint.UseVisualStyleBackColor = True
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(657, 538)
+        Me.Controls.Add(Me.btnFilter)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Name = "Form1"
+        Me.Text = "Form1"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.ResumeLayout(False)
+
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
@@ -255,4 +268,5 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents btnFilter As Button
     Friend WithEvents btnUpdate As Button
+    Friend WithEvents btnPrint As Button
 End Class

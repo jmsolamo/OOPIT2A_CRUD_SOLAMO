@@ -17,5 +17,11 @@ Public Class Form5
         pfDefinitions = crystalDoc.DataDefinition.ParameterFields
         pfDefinition = pfDefinitions.Item("userid")
         pVal = pfDefinition.CurrentValues
+        pVal.Clear()
+        pVal.Add(pDVal)
+        pfDefinition.ApplyCurrentValues(pVal)
+        userIdViewer.ReportSource = crystalDoc
+
+        userIdViewer.Refresh()
     End Sub
 End Class

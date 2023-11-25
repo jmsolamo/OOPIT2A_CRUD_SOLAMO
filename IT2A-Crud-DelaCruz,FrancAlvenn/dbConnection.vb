@@ -32,6 +32,8 @@ Module dbConnection
                 Form1.btnDelete.Enabled = True
                 Form1.txtUserName.Enabled = True
                 Form1.txtpassword.Enabled = True
+
+                Form1.btnPrint.Enabled = True
             End If
         Catch ex As Exception
             MsgBox("NO RECORD FOUND!" + ex.Message, vbOK, "ERROR!")

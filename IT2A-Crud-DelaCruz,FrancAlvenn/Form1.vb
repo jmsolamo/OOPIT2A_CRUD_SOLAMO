@@ -10,6 +10,8 @@ Public Class Form1
         btnDelete.Enabled = False
         txtUserName.Enabled = False
         txtpassword.Enabled = False
+
+        btnPrint.Enabled = False
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
@@ -57,5 +59,9 @@ Public Class Form1
             txtUserName.Clear()
             txtPass.Clear()
         End If
+    End Sub
+
+    Private Sub btnPrint_Click(sender As Object, e As EventArgs) Handles btnPrint.Click
+        Form5.Show()
     End Sub
 End Class
